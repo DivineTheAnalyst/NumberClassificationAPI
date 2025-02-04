@@ -86,7 +86,7 @@ Save the file (`CTRL + X`, then `Y`, then `ENTER`).
 
 Test the API by visiting:
 ```
-http://18.133.157.28/api/classify-number.php?number=371
+http://34.228.212.209/api/number-classify.php?number=371
 ```
 
 ---
