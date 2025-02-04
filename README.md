@@ -73,20 +73,20 @@ cd /var/www/html/
 sudo mkdir /api
 cd /api
 ```
-Create the `classify-number.php` file:
+Create the `number_classify.php` file:
 ```sh
-sudo nano classify-number.php
+sudo nano number_classify.php
 ```
 
 Add the following sample code to `classify-number.php`:
 ```php
-paste the classify-number.php code inside
+paste the number_classify.php code inside
 ```
 Save the file (`CTRL + X`, then `Y`, then `ENTER`).
 
 Test the API by visiting:
 ```
-http://34.228.212.209/api/number-classify.php?number=371
+http://34.228.212.209/api/number_classify.php?number=371
 ```
 
 ---
@@ -219,7 +219,7 @@ sudo tail -f /var/log/apache2/error.log
 
 When uploading, use:
 ```
-http://18.133.157.28/api/classify-number.php  # without parameter
+http://34.228.212.209/api/number_classify.php?number=371# without parameter
 ```
 
 Repository: [GitHub](https://github.com/Incrisz/HNG-2025)
